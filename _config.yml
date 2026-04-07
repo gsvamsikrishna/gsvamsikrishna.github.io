@@ -1,0 +1,8 @@
+title: G S Vamsi Krishna
+email: gs.nitpy@gmail.com
+description: Technology Leader | AI Strategy & Enterprise Architecture
+baseurl: "" # leave empty for github.io sites
+url: "https://gsvamsikrishna.github.io"
+
+# Build settings
+theme: minima # A popular default, or keep it empty to use your own CSS
