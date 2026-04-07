@@ -58,6 +58,18 @@
             <li>Community-Driven Technical Education</li>
         </ul>
     </section>
+
+    <section id="writing">
+    <h2>Writing & Insights</h2>
+    <ul class="article-list">
+      {% for post in site.posts %}
+        <li>
+          <span class="date">{{ post.date | date: "%b %d, %Y" }}</span>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+</section>
 </div>
 
 <footer>
